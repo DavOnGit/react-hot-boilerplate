@@ -10,11 +10,11 @@ import Counter from './Counter';
 // https://github.com/reactjs/react-router/issues/2182
 
 export default class App extends Component {
-  render() {
-    return (
-      <Layout>
-        <Counter />
-      </Layout>
-    );
-  }
+    render() {
+        return (
+            <Layout>
+                <Counter />
+            </Layout>
+        );
+    }
 }
