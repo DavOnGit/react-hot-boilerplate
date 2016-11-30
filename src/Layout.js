@@ -1,7 +1,8 @@
-import styles from './css/layout.css';
 import React from 'react';
+import CSSModules from 'react-css-modules';
+import styles from './css/layout.css';
 
-export default function Layout({ children }) {
+function Layout({ children }) {
     return (
         <div className={ styles.root }>
             <h1 className={ styles.text }>Hello, world!</h1>
@@ -9,3 +10,5 @@ export default function Layout({ children }) {
         </div>
   )
 }
+
+export default CSSModules(Layout, stiles);
